@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins';
+}
+
+.container .tabela{
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0 0 30px red;
+    
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .fundo {
+    background-color: aqua;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 9px;
+    text-transform: uppercase;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
